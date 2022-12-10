@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  margin: 0px;
+  line-height: 1.7;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 13pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(2, 2, 2, 0.763);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  position: relative;
+  text-align: justify;
+}
+
+/* INFORMATION */
+h1 {
+  color: #0e2452;
+}
+
+.title-information {
+  display: inline-block;
+  font-size: 23px;
+  margin-right: 125px;
+}
+
+.content-information {
+  display: inline-block;
+  font-size: 23px;
+}
+
+img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/*EDUCATION*/
+.content-education {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+/* EXPERIENCE */
+
+/* ACTIVITY */
+.time-activity {
+  display: inline-block;
+}
+.my-activity {
+  display: inline-block;
+  margin-left: 138px;
+}
+
+/* SKILL */
+.list-skill {
+  margin-left: 180px;
+}
+
+/* CERTIFICATE */
+.list-year {
+  display: inline-block;
+}
+
+.list-certificate {
+  display: inline-block;
+  margin-left: 215px;
+  text-transform: uppercase;
+}
+
+/* HOBBY */
+.list-hobby {
+  margin-left: -26px;
+}
+
+/* PROJECT */
+
+/* CONTACT */
+.list-contact {
+  margin-left: -26px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:active {
+  cursor: pointer;
+}
+
+/* TIMELINE */
+.timeline ul {
+  list-style-type: none;
+  border-left: 2px solid gray;
+  padding: 5px;
+}
+
+.timeline ul li {
+  padding: 10px 10px;
+  position: relative;
+}
+
+.timeline ul li:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  left: -11px;
+  top: 25px;
+}
+
+.flex {
+  display: flex;
+  border-bottom: 2px solid #e9ecef;
+  padding: 7px;
+}
+
+/* .flex {
+  display: flex;
+  border-bottom: 2px solid rgb(251, 239, 239);
+}
+
+.timeline ul {
+  border-left: 2px solid grey;
+  padding: 12px;
+} */
